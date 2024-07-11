@@ -167,18 +167,7 @@ ul { margin: 0; padding: 0; }
 
  /* 배경 */
  body {
-	background: linear-gradient(
-		-45deg,
-		#ffffff,
-		#ffe4e9,
-		#fcc8e2,
-		#f6baed,
-		#efb0ff,
-		#d3a2ff,
-		#8eb8ff,
-		#91efff,
-		#d5f9ff
-	);
+	
 	background-size: 400% 400%;
 	animation: gradient 9s ease infinite;
 	height: 100vh;
