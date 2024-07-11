@@ -2,8 +2,11 @@ package com.aloha.server.mapper;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Mapper;
+
 import com.aloha.server.dto.Todo;
 
+@Mapper
 public interface TodoMapper {
 
     public List<Todo> list() throws Exception;

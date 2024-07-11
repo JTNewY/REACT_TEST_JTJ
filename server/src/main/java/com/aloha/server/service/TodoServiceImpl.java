@@ -3,10 +3,12 @@ package com.aloha.server.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.aloha.server.dto.Todo;
 import com.aloha.server.mapper.TodoMapper;
 
+@Service
 public class TodoServiceImpl implements TodoService {
 
     @Autowired
